@@ -1,0 +1,94 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: darkgoldenrod;
+    margin : 0%;
+}
+
+img {
+    border-radius: 10px;
+    border: 1px solid black;
+    padding : 5px;
+    max-width : 600px;
+    max-height: 600px;
+    display: block;
+    margin: auto;
+    opacity: o.8;
+}
+
+img:hover {
+    transform: scaleX(-1);
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    background-color: blue;
+    padding: 10px;S
+}
+
+.grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }
+
+  ul{
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 98%;
+    background: red;
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
+    z-index: 10;
+}
+li{
+    display: block;
+    font-size: 2.2rem;
+    padding: 2rem;
+    color: white;
+}
+
+h1{
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-top: 250px;
+    font: bolder;
+    font-size: xx-large;
+}
+h4{
+    color: #e04040;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 250px;
+}
+
+#welcome-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #000;
+}
+
+.end{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #3a3939;
+    color: white;
+}
+
+.social{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    background-color: #414141;
+    justify-content: space-evenly;
+}
